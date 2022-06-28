@@ -18,7 +18,9 @@ class _MyAppState extends State<MyApp> {
           title: Text("Anonymous Method"),
         ),
         body: Center(
-          child: Column(),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+          ),
         ),
       ),
     );
