@@ -24,6 +24,7 @@ class _MyAppState extends State<MyApp> {
               Text("Ini adalah Text"),
               RaisedButton(
                 child: Text("Tekan Saya"),
+                onPressed: null,
               )
             ],
           ),
