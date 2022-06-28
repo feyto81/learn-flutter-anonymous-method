@@ -13,7 +13,9 @@ class _MyAppState extends State<MyApp> {
   String message = "Ini adalah Text";
 
   void tombolDitekan() {
-    message = "Tombol sudah ditekan";
+    setState(() {
+      message = "Tombol sudah ditekan";
+    });
   }
 
   @override
