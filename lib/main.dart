@@ -32,7 +32,7 @@ class _MyAppState extends State<MyApp> {
               Text(message),
               RaisedButton(
                 child: Text("Tekan Saya"),
-                onPressed: null,
+                onPressed: tombolDitekan,
               )
             ],
           ),
