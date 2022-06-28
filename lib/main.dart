@@ -10,7 +10,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  String message;
+  String message = "Ini adalah Text";
 
   @override
   Widget build(BuildContext context) {
