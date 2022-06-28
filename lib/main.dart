@@ -12,6 +12,11 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   String message = "Ini adalah Text";
 
+  void tombolDitekan()
+  {
+    
+  }
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
