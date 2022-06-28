@@ -22,6 +22,9 @@ class _MyAppState extends State<MyApp> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Text("Ini adalah Text"),
+              RaisedButton(
+                child: Text("Tekan Saya"),
+              )
             ],
           ),
         ),
