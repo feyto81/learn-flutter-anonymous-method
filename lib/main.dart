@@ -17,6 +17,9 @@ class _MyAppState extends State<MyApp> {
         appBar: AppBar(
           title: Text("Anonymous Method"),
         ),
+        body: Center(
+          child: Column(),
+        ),
       ),
     );
   }
