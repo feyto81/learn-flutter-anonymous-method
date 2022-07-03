@@ -12,11 +12,11 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   String message = "Ini adalah Text";
 
-  void tombolDitekan() {
-    setState(() {
-      message = "Tombol sudah ditekan";
-    });
-  }
+  // void tombolDitekan() {
+  //   setState(() {
+  //     message = "Tombol sudah ditekan";
+  //   });
+  // }
 
   @override
   Widget build(BuildContext context) {
