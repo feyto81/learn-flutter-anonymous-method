@@ -32,7 +32,11 @@ class _MyAppState extends State<MyApp> {
               Text(message),
               RaisedButton(
                 child: Text("Tekan Saya"),
-                onPressed: tombolDitekan,
+                onPressed: () {
+                  setState(() {
+                    message = "Tombol sudah ditekan";
+                  });
+                },
               )
             ],
           ),
